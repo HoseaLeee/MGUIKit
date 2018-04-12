@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MGUIKit_Example' do
+  pod 'MGUIKit', :path => '../'
+
+  target 'MGUIKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

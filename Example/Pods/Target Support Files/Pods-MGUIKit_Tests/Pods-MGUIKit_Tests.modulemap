@@ -1,0 +1,6 @@
+framework module Pods_MGUIKit_Tests {
+  umbrella header "Pods-MGUIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
